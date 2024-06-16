@@ -1,0 +1,16 @@
+{
+  "name": "system-information",
+  "homepage": "https://github.com/leoshiang/SysInfo#readme",
+  "version": "1.0.0",
+  "description": "這是一個顯示系統資訊的小工具，支援作業系統 Windows/Linux/MacOS。",
+  "main": "sysinfo.js",
+  "scripts": {
+    "build": "cd VerMgr && call release && cd ..\\" 
+  },
+  "author": "Leo Shiang",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "systeminformation": "^5.22.11"
+  }
+}
